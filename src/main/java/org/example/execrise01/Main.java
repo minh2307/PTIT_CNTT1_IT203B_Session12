@@ -2,6 +2,8 @@ package org.example.execrise01;
 
 import java.util.Scanner;
 
+// PreparedStatement được coi là “tấm khiên” chống SQL Injection vì nó tách riêng câu lệnh SQL và dữ liệu đầu vào của người dùng.
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
